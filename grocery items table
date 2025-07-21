@@ -1,0 +1,7 @@
+CREATE TABLE grocery_items (
+    item_id INT PRIMARY KEY AUTO_INCREMENT,
+    item_name VARCHAR(50) NOT NULL,
+    quantity INT NOT NULL,
+    purchase_date DATE NOT NULL,
+    expiry_date DATE NOT NULL
+);
